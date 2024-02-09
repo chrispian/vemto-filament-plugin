@@ -13,7 +13,7 @@ class View<$ crudModelName $> extends ViewRecord
 {
     protected static string $resource = <$ crudModelName $>Resource::class;
 
-    protected static function getHeaderActions() : array
+    public function getHeaderActions() : array
     {
         return [
             EditAction::make(),
