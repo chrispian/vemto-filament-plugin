@@ -11,4 +11,12 @@ use App\Filament\Resources\<$ crudModelName $>Resource;
 class View<$ crudModelName $> extends ViewRecord
 {
     protected static string $resource = <$ crudModelName $>Resource::class;
+
+    protected static function actions() : array
+    {
+        return [
+            EditAction::make(),
+        ];
+    }
+
 }
