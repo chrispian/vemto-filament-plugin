@@ -5,6 +5,7 @@
 
 namespace App\Filament\Resources\<$ crudModelName $>Resource\Pages;
 
+use Filament\Actions\EditAction;
 use Filament\Resources\Pages\ViewRecord;
 use App\Filament\Resources\<$ crudModelName $>Resource;
 
